@@ -1,0 +1,21 @@
+{
+	"name": "poweron-client",
+	"description": "Client component of poweron language server.",
+	"version": "1.0.0",
+	"author": "Jeffrey Hartman",
+	"license": "MIT",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/0sawaqed/vscode-poweron"
+	},
+	"engines": {
+		"vscode": "^1.75.0"
+	},	
+	"scripts": {},
+	"dependencies": {
+		"vscode-languageclient": "^9.0.1"
+	},
+  "devDependencies": {
+    "@types/vscode": "^1.75.1"
+}
+}

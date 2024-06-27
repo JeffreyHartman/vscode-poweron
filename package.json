@@ -26,6 +26,9 @@
     "categories": [
         "Programming Languages"
     ],
+    "activationEvents": [
+        "onLanguage:poweron"
+    ],
     "contributes": {
         "languages": [{
             "id": "poweron",
@@ -38,5 +41,12 @@
             "scopeName": "source.poweron",
             "path": "./syntaxes/poweron.language.json"
         }]     
+    },
+    "scripts": {
+        "compile": "tsc -b"
+    },
+    "devDependencies": {
+        "@types/node": "^20.14.9",
+        "typescript": "^5.5.2"
     }
 }

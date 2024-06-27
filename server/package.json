@@ -1,0 +1,19 @@
+{
+	"name": "poweron-server",
+	"description": "Implementation of poweron language server in node.",
+	"version": "1.0.0",
+	"author": "Jeffrey Hartman",
+	"license": "MIT",
+	"engines": {
+		"node": "*"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/0sawaqed/vscode-poweron"
+	},
+	"devDependencies": {
+		"vscode-languageserver": "^9.0.1",
+		"vscode-languageserver-textdocument": "^1.0.11"
+	},
+	"scripts": {}
+}
